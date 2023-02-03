@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const MongoClient = mongodb.MongoClient;
-const port = process.env.PORT;
+const port = process.env.PORT || 8000;
 
 //connect the database using a URL
 MongoClient.connect(
