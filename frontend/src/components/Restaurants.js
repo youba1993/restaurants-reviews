@@ -1,4 +1,4 @@
-const Restaurents = () => {
+const Restaurants = () => {
     return (
         <div className="App">
             <h1>Restaurents</h1>
@@ -6,4 +6,4 @@ const Restaurents = () => {
     );
 }
 
-export default Restaurents;
+export default Restaurants;
